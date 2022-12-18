@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #0a0a0a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+span {
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 64px auto;
+}
+
+.banner__img-wrap {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 32px;
+}
+
+.banner__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.banner__title {
+  font-size: 72px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.banner__position {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.banner__text {
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.banner__text > * + * {
+  margin-top: 8px;
+}
+
+.cv {
+  margin-bottom: 64px;
+}
+
+.cv__title {
+  margin-bottom: 24px;
+}
+
+.cv-info {
+  margin-bottom: 32px;
+}
+
+.cv-info__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cv-info__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.cv-info__item-title {
+  font-weight: 700;
+}
+
+.cv-skills__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #a2c8ec;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.footer__github {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer__github:hover {
+  text-decoration: underline;
+}
+
+.footer__github-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__year {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer__rsschool-logo {
+  max-width: 100px;
+}
